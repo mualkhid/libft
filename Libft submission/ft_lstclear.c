@@ -25,3 +25,20 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 		*lst = node;
 	}
 }
+
+// int main(void)
+// {
+// 	t_list *node1 = ft_lstnew(ft_strdup("bruh"));
+// 	t_list *node2 = ft_lstnew(ft_strdup("zxda"));
+// 	t_list *node3 = ft_lstnew(ft_strdup("qweqwe"));
+
+// 	ft_lstadd_back(&node1, node2);
+// 	ft_lstadd_back(&node1, node3);
+
+// 	ft_lstclear(&node2, free);
+// 	while(node1)
+// 	{
+// 		printf("%s\n", node1->content);
+// 		node1 = node1->next;
+// 	}
+// }
