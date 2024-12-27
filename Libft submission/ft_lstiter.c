@@ -22,3 +22,19 @@ void	ft_lstiter(t_list *lst, void (*f)(void *))
 		lst = lst->next;
 	}
 }
+
+// void printContent(void *content)
+// {
+// 	printf("%s\n", content);
+// }
+// int main(void)
+// {
+// 	t_list *node1 = ft_lstnew(ft_strdup("bruh"));
+// 	t_list *node2 = ft_lstnew(ft_strdup("gxda"));
+// 	t_list *node3 = ft_lstnew(ft_strdup("qweqwe"));
+
+// 	ft_lstadd_back(&node1, node2);
+// 	ft_lstadd_back(&node1, node3);
+
+// 	ft_lstiter(node1, printContent);
+// }
