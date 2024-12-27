@@ -23,3 +23,9 @@ t_list	*ft_lstnew(void *content)
 	new_node->next = NULL;
 	return (new_node);
 }
+
+// int main(void)
+// {
+// 	t_list *node1 = ft_lstnew("123");
+// 	printf("%s\n", node1->content);
+// }
