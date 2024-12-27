@@ -27,3 +27,20 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 			*lst = new;
 	}
 }
+
+
+// int main(void)
+// {
+// 	t_list *node1 = ft_lstnew("bruh");
+// 	t_list *node2 = ft_lstnew("zxda");
+// 	t_list *node3 = ft_lstnew("qweqwe");
+
+// 	ft_lstadd_back(&node1, node2);
+// 	ft_lstadd_back(&node1, node3);
+
+// 	while(node1)
+// 	{
+// 		printf("%s\n", node1->content);
+// 		node1 = node1->next;
+// 	}
+// 
